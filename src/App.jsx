@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import { projects, socials } from './data';
-import profileImg from './assets/profile.jpg'; // Ensure your photo is named profile.jpg in assets
+import profileImg from './assets/profile.jpg'; 
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
         
         {/* HERO SECTION */}
         <section className="mb-32 flex flex-col items-center text-center">
-          {/* Status Badge */}
           <div className="flex items-center gap-2 mb-8 bg-white/5 px-4 py-2 rounded-full border border-white/10">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
@@ -24,7 +23,6 @@ function App() {
             </span>
           </div>
 
-          {/* Profile Image */}
           <div className="mb-10 relative">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-3xl overflow-hidden border-2 border-white/10 p-1 bg-gradient-to-b from-white/10 to-transparent">
               <img 
@@ -47,14 +45,13 @@ function App() {
             Building high-performance, accessible, and visually stunning web interfaces using React and modern architecture.
           </p>
 
-          {/* Social Links */}
           <div className="flex flex-wrap justify-center gap-6 text-[10px] font-bold tracking-[0.3em] text-gray-500 uppercase">
             <a href={socials.github} target="_blank" rel="noreferrer" className="hover:text-white transition">Github</a>
             <a href={socials.twitter} target="_blank" rel="noreferrer" className="hover:text-white transition">Twitter</a>
             <a href={socials.whatsapp} target="_blank" rel="noreferrer" className="hover:text-white transition">Whatsapp</a>
             <a href={socials.email} className="hover:text-white transition">Email</a>
           </div>
-        </section>
+        </section> {/* End Hero */}
 
         {/* PROJECTS SECTION */}
         <section id="work" className="mb-40">
@@ -70,9 +67,9 @@ function App() {
               <Card key={project.id} {...project} />
             ))}
           </div>
-        </section>
+        </section> {/* End Projects */}
 
-        {/* THE BUILDER / ABOUT SECTION */}
+        {/* ABOUT SECTION */}
         <section id="about" className="py-24 border-t border-white/5">
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-8">
@@ -102,7 +99,6 @@ function App() {
               </p>
             </div>
 
-            {/* Quick Stats Row */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 pt-10 border-t border-white/5">
               <div>
                 <p className="text-[10px] font-bold text-gray-600 uppercase tracking-widest mb-2">Location</p>
@@ -118,11 +114,10 @@ function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> {/* End About */}
 
-      </main>
+      </main> {/* End Main */}
 
-      {/* FOOTER */}
       <footer className="border-t border-white/5 py-10 text-center">
         <p className="text-[10px] font-bold tracking-[0.3em] text-gray-600 uppercase">
           © 2026 Tobiloba Akala — Build. Ship. Repeat.
