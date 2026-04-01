@@ -40,12 +40,13 @@ export default function Navbar() {
             About
           </a>
 
-          <a 
-            href="mailto:tobilobaakala@gmail.com" 
-            className="hidden sm:block text-[10px] font-bold tracking-[0.2em] bg-white text-black px-5 py-2.5 rounded-full hover:bg-blue-500 hover:text-white transition-all active:scale-95 uppercase"
-          >
-            Hire Me
-          </a>
+         <a 
+  href="mailto:tobilobaakala@gmail.com" 
+  className="text-[9px] md:text-[10px] font-bold tracking-[0.1em] md:tracking-[0.2em] bg-white text-black px-3 py-2 md:px-5 md:py-2.5 rounded-full hover:bg-blue-500 hover:text-white transition-all active:scale-95 uppercase whitespace-nowrap"
+>
+  Hire Me
+</a>
+
         </div>
         
       </div>
