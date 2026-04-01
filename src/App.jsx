@@ -51,7 +51,21 @@ function App() {
             <a href={socials.whatsapp} target="_blank" rel="noreferrer" className="hover:text-white transition">Whatsapp</a>
             <a href={socials.email} className="hover:text-white transition">Email</a>
           </div>
-        </section> {/* End Hero */}
+        </section> 
+        {/* my CV Download Button */}
+<div className="mt-12">
+  <a 
+    href="/resume.pdf" 
+    download="Tobiloba_Akala_CV.pdf"
+    className="inline-flex items-center gap-3 bg-[#121212] border border-white/10 px-8 py-4 rounded-2xl text-[10px] font-bold tracking-[0.3em] uppercase hover:bg-white hover:text-black transition-all active:scale-95 group"
+  >
+    Download CV
+    <span className="text-blue-500 group-hover:text-black transition-colors">↓</span>
+  </a>
+</div>
+
+        
+        {/* End Hero */}
 
         {/* PROJECTS SECTION */}
         <section id="work" className="mb-40">
