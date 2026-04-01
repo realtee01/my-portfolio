@@ -5,7 +5,7 @@ export default function Navbar() {
         <span className="font-bold tracking-widest text-lg">T.</span>
         <div className="flex gap-8 text-sm font-medium text-gray-400">
           <a href="#work" className="hover:text-white transition">WORK</a>
-          <a href="mailto:your-email@gmail.com" className="hover:text-white transition underline">CONTACT</a>
+          <a href="mailto:tobilobaakala@gmail.com" className="hover:text-white transition underline">CONTACT</a>
         </div>
       </div>
     </nav>
