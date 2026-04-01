@@ -32,10 +32,10 @@ export const projects = [
 )
 
 export const socials = {
-  twitter: "https://twitter.com/yourusername",
+  twitter: "https://twitter.com/realone1111101",
   github: "https://github.com/realtee01",
   linkedin: "#", // Add this later
-  whatsapp: "https://wa.me/234XXXXXXXXXX", // Replace X with your number starting with 234
-  email: "mailto:your-email@gmail.com"
+  whatsapp: "https://wa.me/2347032533869", // Replace X with your number starting with 234
+  email: "mailto:tobilobaakala@gmail.com"
 };
 
