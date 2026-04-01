@@ -55,9 +55,10 @@ function App() {
         </section> 
       
         {/* CV View Button */}
+{/* CV View Button */}
 <div className="mt-12">
   <a 
-    href="/resume.pdf" 
+    href={resumeFile} // Using the imported variable here
     target="_blank" 
     rel="noreferrer"
     className="inline-flex items-center gap-3 bg-[#121212] border border-white/10 px-8 py-4 rounded-2xl text-[10px] font-bold tracking-[0.3em] uppercase hover:bg-white hover:text-black transition-all active:scale-95 group"
@@ -67,7 +68,11 @@ function App() {
   </a>
 </div>
 
+
         {/* End Hero */}
+        
+        
+        
 
         {/* PROJECTS SECTION */}
         <section id="work" className="mb-40">
