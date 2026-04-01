@@ -19,7 +19,7 @@ function App() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
             <span className="text-[10px] font-bold tracking-[0.2em] text-gray-400 uppercase">
-              Available for Internships
+              Available for Freelancing
             </span>
           </div>
 
