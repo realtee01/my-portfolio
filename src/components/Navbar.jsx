@@ -29,7 +29,7 @@ export default function Navbar() {
             href="#work" 
             className="text-[10px] font-bold tracking-[0.2em] text-gray-400 hover:text-white transition-all uppercase"
           >
-            Work
+            projects
           </a>
           
           {/* New About Link */}
