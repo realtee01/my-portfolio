@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Card from './components/Card';
 import { projects, socials } from './data';
 import profileImg from './assets/profile.jpg'; 
+import resumeFile from './assets/Resume.pdf';
 
 function App() {
   return (
