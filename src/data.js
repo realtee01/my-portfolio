@@ -25,7 +25,7 @@ export const projects = [
     description: "A practical tool for University of Lagos students to track and calculate grades.",
     tech: "JavaScript • CSS • HTML",
     link: "#",
-    image: null // Add a screenshot later if you want
+    image: null // ill add a screenshot later
   }
 ];
 
@@ -34,7 +34,7 @@ export const projects = [
 export const socials = {
   twitter: "https://twitter.com/realone1111101",
   github: "https://github.com/realtee01",
-  linkedin: "#", // Add this later
+  linkedin: "#", // Addinf this later 
   whatsapp: "https://wa.me/2347032533869", // Replace X with your number starting with 234
   email: "mailto:tobilobaakala@gmail.com"
 };
