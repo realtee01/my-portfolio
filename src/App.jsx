@@ -49,7 +49,7 @@ function App() {
           <p className="flex flex-wrap justify-center gap-6 text-[10px] font-bold tracking-[0.3em] text-gray-500 uppercase"> find me on </p>
           
           
-          <p> - </p>
+          <p className="text-gray-500 uppercase"> - </p>
           
           
 
