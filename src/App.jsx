@@ -12,7 +12,7 @@ function App() {
 
       <main className="max-w-6xl mx-auto px-6 pt-32 pb-20">
         
-        {/* HERO SECTION */}
+        {/* the HERO SECTION */}
         <section className="mb-32 flex flex-col items-center text-center">
           <div className="flex items-center gap-2 mb-8 bg-white/5 px-4 py-2 rounded-full border border-white/10">
             <span className="relative flex h-2 w-2">
@@ -54,7 +54,7 @@ function App() {
           </div>
         </section> 
       
-        {/* CV View Button */}
+        
 {/* CV View Button */}
 <div className="mt-12">
   <a 
@@ -116,7 +116,7 @@ function App() {
       </p>
     </div>
 
-    {/* TOOLS SECTION (The one from your screenshots) */}
+    {/* TOOLS SECTION (The one from screenshots) */}
     <div className="mb-20">
       <h3 className="text-3xl md:text-5xl font-black tracking-tighter uppercase mb-8 leading-tight">
         Tools I Use. <br/>
@@ -159,7 +159,7 @@ function App() {
     Got a project? A brief? Just want to talk code or internships? I'm here.
   </p>
 
-  {/* Formspree Integration */}
+  {/*  Formspree Integration */}
   <form 
     action="https://formspree.io/f/xaqlbalq" 
     method="POST" 
