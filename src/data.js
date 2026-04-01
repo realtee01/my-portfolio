@@ -29,7 +29,7 @@ export const projects = [
   }
 ];
 
-)
+
 
 // src/data.js (Updated Socials)
 
