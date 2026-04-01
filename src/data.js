@@ -6,7 +6,7 @@ export const projects = [
     id: 1,
     title: "Cinescope",
     description: "A premium movie discovery platform showing real-time data and polished UI.",
-    tech: "React • Tailwind • API",
+    tech: "js• React • Tailwind • vite",
     link: "https://cinescope-tobiloba-niad.vercel.app",
     image: cinescopeImg
   },
