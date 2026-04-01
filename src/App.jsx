@@ -26,7 +26,7 @@ export default function App() {
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
               I build clean, responsive web interfaces using React and Tailwind CSS. 
               I love turning designs into fast, accessible user experiences. 
-              Currently a CS student at UNILAG focused on building high-end digital products.
+              Currently a computer science student at UNILAG focused on building high-end digital products.
             </p>
             
             {/* Hero Socials */}
