@@ -71,6 +71,26 @@ export default function App() {
             <Card key={project.id} {...project} />
           ))}
         </section>
+        
+        <section id="about" className="mb-32 max-w-3xl">
+  <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-8">
+    The <span className="text-blue-500">Builder.</span>
+  </h2>
+  <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
+    <p>
+      I’m a Computer scienve student at axia <span className="text-white">UNILAG</span> with a focus on high-end Frontend Engineering. 
+      I don't just write code; I architect interfaces that turn users into fans.
+    </p>
+    <p>
+      Every project in this portfolio was <span className="text-white">built and deployed from a mobile device</span>. 
+      This constraint taught me that engineering isn't about the hardware you have—it's about the resourcefulness you bring to the problem.
+    </p>
+    <p>
+      I’m currently documenting my wins, my bugs, and my "why isn't this working at 2am" moments as I prepare for the next stage of my career.
+    </p>
+  </div>
+</section>
+
 
         {/* Footer with Socials */}
         <footer className="mt-32 pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
