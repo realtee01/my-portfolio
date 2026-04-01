@@ -62,7 +62,10 @@ export default function App() {
         </section>
 
         {/* Work Grid */}
-        <h3 className="text-[10px] font-bold tracking-[0.4em] text-gray-600 uppercase mb-10 text-center md:text-left">Selected Work</h3>
+        <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-12">
+  Real Projects. <br/><span className="text-gray-800">Real Code.</span>
+</h2>
+
         <section id="work" className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <Card key={project.id} {...project} />
