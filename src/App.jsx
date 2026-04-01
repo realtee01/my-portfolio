@@ -19,7 +19,7 @@ function App() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
             <span className="text-[10px] font-bold tracking-[0.2em] text-gray-400 uppercase">
-              Available for Freelancing
+              Available for Internships
             </span>
           </div>
 
@@ -123,50 +123,63 @@ function App() {
         ))}
       </div>
     </div>
-            {/* CONTACT FORM SECTION */}
-            <div className="mt-20 pt-10 border-t border-white/5">
-              <div className="flex items-center gap-4 mb-8">
-                <span className="text-[10px] font-bold tracking-[0.4em] text-blue-500 uppercase">003 — Contact</span>
-                <div className="h-[1px] w-12 bg-blue-500/30"></div>
-              </div>
+        {/* CONTACT SECTION */}
+<div className="mt-20 pt-10 border-t border-white/5">
+  <div className="flex items-center gap-4 mb-8">
+    <span className="text-[10px] font-bold tracking-[0.4em] text-blue-500 uppercase">003 — Contact</span>
+    <div className="h-[1px] w-12 bg-blue-500/30"></div>
+  </div>
 
-              <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-4 leading-none">
-                Let's build <br/> something <span className="text-blue-500">real.</span>
-              </h2>
-              
-              <p className="text-gray-500 mb-10 text-lg">
-                Got a project? A brief? Just want to talk code or internships? I'm here.
-              </p>
+  <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-4 leading-none">
+    Let's build <br/> something <span className="text-blue-500">real.</span>
+  </h2>
+  
+  <p className="text-gray-500 mb-10 text-lg">
+    Got a project? A brief? Just want to talk code or internships? I'm here.
+  </p>
 
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <input 
-                    type="text" 
-                    placeholder="Your name or company" 
-                    className="w-full bg-[#121212] border border-white/5 rounded-xl px-6 py-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500/50 transition-all"
-                  />
-                  <input 
-                    type="email" 
-                    placeholder="Your email" 
-                    className="w-full bg-[#121212] border border-white/5 rounded-xl px-6 py-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500/50 transition-all"
-                  />
-                </div>
-                <textarea 
-                  placeholder="What are we building?" 
-                  rows="4"
-                  className="w-full bg-[#121212] border border-white/5 rounded-xl px-6 py-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500/50 transition-all resize-none"
-                ></textarea>
-                
-                <button 
-                  type="submit"
-                  className="w-full bg-white text-black font-bold py-4 rounded-xl hover:bg-blue-500 hover:text-white transition-all active:scale-[0.98] flex items-center justify-center gap-2 group"
-                >
-                  Send It 
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </button>
-              </form>
-            </div>
-          </div>
+  {/* Formspree Integration */}
+  <form 
+    action="https://formspree.io/f/xaqlbalq" 
+    method="POST" 
+    className="space-y-4"
+  >
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Your name or company" 
+        required
+        className="w-full bg-[#121212] border border-white/5 rounded-xl px-6 py-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500/50 transition-all"
+      />
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Your email" 
+        required
+        className="w-full bg-[#121212] border border-white/5 rounded-xl px-6 py-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500/50 transition-all"
+      />
+    </div>
+    
+    <textarea 
+      name="message" 
+      placeholder="What are we building?" 
+      rows="4" 
+      required
+      className="w-full bg-[#121212] border border-white/5 rounded-xl px-6 py-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500/50 transition-all resize-none"
+    ></textarea>
+    
+    <button 
+      type="submit"
+      className="w-full bg-white text-black font-bold py-4 rounded-xl hover:bg-blue-500 hover:text-white transition-all active:scale-[0.98] flex items-center justify-center gap-2 group"
+    >
+      Send It 
+      <span className="group-hover:translate-x-1 transition-transform">→</span>
+    </button>
+  </form>
+</div>
+
+     </div>
         </section>
     
 </main>
