@@ -38,3 +38,13 @@ This repository is unique: **it was developed and deployed entirely from a mobil
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
+
+👨‍💻 Author
+Tobiloba Akala Frontend Developer & Computer Science Student (UNILAG)
+• Live Portfolio: tobilobadev.vercel.app
+• GitHub: @realtee01
+• Twitter: @realtee1111101
+• Email: tobilobaakala@gmail.com
+Created with precision in Lagos, Nigeria.
+
+
