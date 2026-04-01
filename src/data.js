@@ -28,3 +28,14 @@ export const projects = [
     image: null // Add a screenshot later if you want
   }
 ];
+
+)
+
+export const socials = {
+  twitter: "https://twitter.com/yourusername",
+  github: "https://github.com/realtee01",
+  linkedin: "#", // Add this later
+  whatsapp: "https://wa.me/234XXXXXXXXXX", // Replace X with your number starting with 234
+  email: "mailto:your-email@gmail.com"
+};
+
