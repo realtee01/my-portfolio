@@ -29,8 +29,8 @@ export const projects = [
 ];
 
 export const socials = {
-  twitter: "https://twitter.com/realtee1111101",
-  github: "https://github.com/realtee01",
+  x: "https://x.com/realtee1111101",
+  GitHub: "https://github.com/realtee01",
   linkedin: "#",
   whatsapp: "https://wa.me/2347032533869",
   email: "mailto:tobilobaakala@gmail.com"
