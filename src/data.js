@@ -26,7 +26,7 @@ export const projects = [
     link: "#",
     image: null
   }
-]; // Ensure it ends here with a semicolon
+];
 
 export const socials = {
   twitter: "https://twitter.com/realtee1111101",
