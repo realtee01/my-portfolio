@@ -39,7 +39,7 @@ function App() {
           </h1>
           
           <h2 className="text-xl md:text-2xl font-semibold mb-8 bg-gradient-to-r from-blue-600 via-blue-300 to-blue-600 bg-[length:200%_auto] bg-clip-text text-transparent animate-shimmer inline-block">
-            Frontend Engineer
+            Frontend Developer
           </h2>
 
           <p className="max-w-xl text-gray-400 text-lg md:text-xl leading-relaxed mb-10">
