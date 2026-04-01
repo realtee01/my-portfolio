@@ -31,11 +31,14 @@ export const projects = [
 
 )
 
+// src/data.js (Updated Socials)
+
 export const socials = {
-  twitter: "https://twitter.com/realone1111101",
+  twitter: "https://twitter.com/realtee1111101",
   github: "https://github.com/realtee01",
-  linkedin: "#", // Addinf this later 
-  whatsapp: "https://wa.me/2347032533869", // Replace X with your number starting with 234
+  linkedin: "#", // Add this later
+  whatsapp: "https://wa.me/2347032533869", // Formatted for Nigeria (+234)
   email: "mailto:tobilobaakala@gmail.com"
 };
+
 
