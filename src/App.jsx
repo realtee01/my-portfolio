@@ -52,19 +52,20 @@ function App() {
             <a href={socials.email} className="hover:text-white transition">Email</a>
           </div>
         </section> 
-        {/* my CV Download Button */}
+      
+        {/* CV View Button */}
 <div className="mt-12">
   <a 
     href="/resume.pdf" 
-    download="Tobiloba_Akala_CV.pdf"
+    target="_blank" 
+    rel="noreferrer"
     className="inline-flex items-center gap-3 bg-[#121212] border border-white/10 px-8 py-4 rounded-2xl text-[10px] font-bold tracking-[0.3em] uppercase hover:bg-white hover:text-black transition-all active:scale-95 group"
   >
-    Download CV
-    <span className="text-blue-500 group-hover:text-black transition-colors">↓</span>
+    View Resume
+    <span className="text-blue-500 group-hover:text-black transition-colors">↗</span>
   </a>
 </div>
 
-        
         {/* End Hero */}
 
         {/* PROJECTS SECTION */}
