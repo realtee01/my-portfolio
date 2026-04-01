@@ -7,7 +7,7 @@ export default function Card({ title, description, tech, link, image }) {
         {image ? (
           <img 
             src={image} 
-            alt={title} 
+            alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         ) : (
