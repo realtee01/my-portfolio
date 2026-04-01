@@ -22,7 +22,9 @@ export default function App() {
           
           <div className="max-w-2xl text-center md:text-left">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">Tobiloba Akala</h1>
-            <h2 className="text-xl text-blue-500 font-medium mb-6">Frontend Developer</h2>
+           <h2 className="text-xl md:text-2xl font-semibold mb-6 bg-gradient-to-r from-blue-600 via-blue-300 to-blue-600 bg-[length:200%_auto] bg-clip-text text-transparent animate-shimmer inline-block">
+  Frontend Developer
+</h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
               I build clean, responsive web interfaces using React and Tailwind CSS. 
               I love turning designs into fast, accessible user experiences. 
