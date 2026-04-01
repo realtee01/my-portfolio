@@ -48,6 +48,8 @@ function App() {
 
           <p className="flex flex-wrap justify-center gap-6 text-[10px] font-bold tracking-[0.3em] text-gray-500 uppercase"> find me on </p>
           
+          <p>
+          
 
           <div className="flex flex-wrap justify-center gap-6 text-[10px] font-bold tracking-[0.3em] text-gray-500 uppercase">
             <a href={socials.github} target="_blank" rel="noreferrer" className="hover:text-white transition">Github</a>
