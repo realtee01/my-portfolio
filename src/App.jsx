@@ -73,19 +73,24 @@ export default function App() {
         </section>
         
         <section id="about" className="mb-32 max-w-3xl">
-  <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-8">
-    The <span className="text-blue-500">Builder.</span>
-  </h2>
-  <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
-    <p>
-      I’m a Computer scienve student at axia <span className="text-white">UNILAG</span> with a focus on high-end Frontend Engineering. 
-      I don't just write code; I architect interfaces that turn users into fans.
-    </p>
-    <p>
-      Every project in this portfolio was <span className="text-white">built and deployed from a mobile device</span>. 
-      This constraint taught me that engineering isn't about the hardware you have—it's about the resourcefulness you bring to the problem.
-    </p>
-    <p>
+  <div className="space-y-8 text-gray-400 text-lg md:text-xl leading-relaxed font-medium">
+  <p>
+    I am a Frontend Engineer and Computer Science student at the <span className="text-white font-bold">University of Lagos</span>, dedicated to bridging the gap between complex technical logic and high-end visual aesthetics.
+  </p>
+  
+  <p>
+    My approach to development is rooted in <span className="text-blue-500 underline decoration-blue-500/30 underline-offset-4">Performance-First Engineering</span>. I specialize in architecting scalable React applications that don't just function—they provide seamless, frictionless experiences for the end-user.
+  </p>
+
+  <p>
+    Beyond writing code, I am obsessed with the "Why." I believe that every pixel should serve a purpose and every interaction should drive value. Whether it’s optimizing a build pipeline with <span className="text-white">Vite</span> or crafting responsive layouts with <span className="text-white">Tailwind CSS</span>, my goal is always the same: to build digital products that feel premium, fast, and intuitive.
+  </p>
+
+  <p className="text-sm md:text-base text-gray-500 italic border-l-2 border-blue-500/20 pl-6">
+    "Currently focused on mastering the nuances of modern web architecture and contributing to the next generation of digital tools."
+  </p>
+</div>
+
       I’m currently documenting my wins, my bugs, and my "why isn't this working at 2am" moments as I prepare for the next stage of my career.
     </p>
   </div>
