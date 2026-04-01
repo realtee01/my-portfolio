@@ -1,4 +1,3 @@
-// src/data.js
 import cinescopeImg from './assets/cinescope-thumb.jpg';
 import jobBoardImg from './assets/job-board-thumb.jpg';
 
@@ -24,21 +23,15 @@ export const projects = [
     title: "CGPA Calculator",
     description: "A practical tool for University of Lagos students to track and calculate grades.",
     tech: "JavaScript • CSS • HTML",
-    link: "#",// ill add link later 
-    image: null // ill add a screenshot later
+    link: "#",
+    image: null
   }
-];
-
-
-
-// src/data.js (Updated Socials)
+]; // Ensure it ends here with a semicolon
 
 export const socials = {
   twitter: "https://twitter.com/realtee1111101",
   github: "https://github.com/realtee01",
-  linkedin: "#", // Add this later
-  whatsapp: "https://wa.me/2347032533869", // Formatted for Nigeria (+234)
+  linkedin: "#",
+  whatsapp: "https://wa.me/2347032533869",
   email: "mailto:tobilobaakala@gmail.com"
 };
-
-
