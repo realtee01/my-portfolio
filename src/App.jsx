@@ -57,7 +57,7 @@ export default function App() {
         <footer className="mt-32 pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
             <p className="text-white font-bold tracking-tighter">TOBILOBA.</p>
-            <p className="text-gray-600 text-xs mt-1">© 2026 Tobiloba • </p>
+            <p className="text-gray-600 text-xs mt-1">© 2026 Tobiloba </p>
           </div>
 
           <div className="flex gap-8 text-[10px] font-bold tracking-widest text-gray-500 uppercase">
