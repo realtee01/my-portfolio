@@ -5,12 +5,12 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-[#0a0a0a]/80 backdrop-blur-md z-50 border-b border-white/5">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
-        {/* my T/A Logo */}
+        {/* The T/A Logo */}
         <a href="/" className="group flex items-center gap-2">
           <div className="flex items-center font-black text-2xl tracking-tighter">
             <span className="text-white">T</span>
             <span className="text-blue-500 mx-[1px]">/</span> 
-            <span className="text-gray-500 group-hover:text-white transition-colors">A</span>
+            <span className="text-gray-500 group-hover:text-white transition-colors duration-300">A</span>
           </div>
           
           <div className="hidden md:flex flex-col border-l border-white/10 pl-3 ml-1">
@@ -23,17 +23,26 @@ export default function Navbar() {
           </div>
         </a>
 
-        {/* my Navigation Links */}
-        <div className="flex items-center gap-8">
+        {/* Navigation Links */}
+        <div className="flex items-center gap-6 md:gap-8">
           <a 
             href="#work" 
-            className="text-[10px] font-bold tracking-[0.2em] text-gray-400 hover:text-white transition uppercase"
+            className="text-[10px] font-bold tracking-[0.2em] text-gray-400 hover:text-white transition-all uppercase"
           >
             Work
           </a>
+          
+          {/* New About Link */}
+          <a 
+            href="#about" 
+            className="text-[10px] font-bold tracking-[0.2em] text-gray-400 hover:text-white transition-all uppercase"
+          >
+            About
+          </a>
+
           <a 
             href="mailto:tobilobaakala@gmail.com" 
-            className="text-[10px] font-bold tracking-[0.2em] bg-white text-black px-4 py-2 rounded-full hover:bg-blue-500 hover:text-white transition uppercase"
+            className="hidden sm:block text-[10px] font-bold tracking-[0.2em] bg-white text-black px-5 py-2.5 rounded-full hover:bg-blue-500 hover:text-white transition-all active:scale-95 uppercase"
           >
             Hire Me
           </a>
