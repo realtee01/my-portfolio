@@ -55,7 +55,7 @@ function App() {
 
           <div className="flex flex-wrap justify-center gap-6 text-[10px] font-bold tracking-[0.3em] text-gray-500 uppercase">
             <a href={socials.github} target="_blank" rel="noreferrer" className="hover:text-white transition">Github</a>
-            <a href={socials.twitter} target="_blank" rel="noreferrer" className="hover:text-white transition">Twitter</a>
+            <a href={socials.x} target="_blank" rel="noreferrer" className="hover:text-white transition">x</a>
             <a href={socials.whatsapp} target="_blank" rel="noreferrer" className="hover:text-white transition">Whatsapp</a>
             <a href={socials.email} className="hover:text-white transition">Email</a>
           </div>
