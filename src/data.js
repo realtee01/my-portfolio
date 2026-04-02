@@ -1,18 +1,16 @@
 import cinescopeImg from './assets/cinescope-thumb.jpg';
 import jobBoardImg from './assets/job-board-thumb.jpg';
-import calcimg from './assets/calc.jpg';
-import forzchainImg from './assets/forzchain.jpg';
+import calcImg from './assets/calc.jpg';
+import forzchainImg from './assets/forzchain.jpg'; // Ensure this import is here
 
 export const projects = [
-  
-  export const projects = [
   {
-    id: 0, 
+    id: 0,
     title: "Forzchain",
-    description: "A decentralized supply chain management system leveraging blockchain for transparency and real-time tracking.",
-    tech: "React • Tailwind • Solidity • Ethers.js",
+    description: "A decentralized supply chain management system leveraging blockchain for transparency.",
+    tech: "React • Tailwind • Solidity",
     link: "https://forzchain.vercel.app/",
-    image: forzchainImg 
+    image: forzchainImg
   },
   
 
