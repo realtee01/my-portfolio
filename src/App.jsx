@@ -82,7 +82,7 @@ function App() {
         
 
         {/* PROJECTS SECTION */}
-        <section id="project" className="mb-40">
+        <section id="projects" className="mb-40">
           <div className="flex flex-col mb-16">
             <span className="text-[10px] font-bold tracking-[0.4em] text-blue-500 uppercase mb-4">001 — Selected Work</span>
             <h2 className="text-4xl md:text-7xl font-black tracking-tighter uppercase leading-none">
