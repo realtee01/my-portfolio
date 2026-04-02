@@ -1,6 +1,6 @@
 import cinescopeImg from './assets/cinescope-thumb.jpg';
 import jobBoardImg from './assets/job-board-thumb.jpg';
-import calcImg from './assets/calc.jpg';
+import calcimg from './assets/calc.jpg';
 
 export const projects = [
   {
