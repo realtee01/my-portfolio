@@ -218,7 +218,7 @@ font-bold tracking-[0.3em] text-gray-600 uppercase">
 © 2026 Tobiloba Akala -
 Build. Ship. Repeat.
 </p>
-</ footer>
+</footer>
 </div>
 );
 }
