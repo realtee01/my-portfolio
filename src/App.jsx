@@ -92,7 +92,7 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project) => (
-              <Card key={projects.id} {...projects} />
+              <Card key={project.id} {...project} />
             ))}
           </div>
         </section> {/* End Projects */}
