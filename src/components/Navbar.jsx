@@ -26,7 +26,7 @@ export default function Navbar() {
         {/* Navigation Links */}
         <div className="flex items-center gap-6 md:gap-8">
           <a 
-            href="#work" 
+            href="#projects" 
             className="text-[10px] font-bold tracking-[0.2em] text-gray-400 hover:text-white transition-all uppercase"
           >
             projects
