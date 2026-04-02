@@ -1,6 +1,7 @@
 import cinescopeImg from './assets/cinescope-thumb.jpg';
 import jobBoardImg from './assets/job-board-thumb.jpg';
-import Calcimg from './assets/Calc.jpg';
+import calcImg from './assets/calc.jpg';
+
 export const projects = [
   {
     id: 1,
@@ -24,7 +25,7 @@ export const projects = [
     description: "A practical tool for University of Lagos students to track and calculate grades.",
     tech: "JavaScript • CSS • HTML",
     link:"https://cgpa-calculator-tobiloba.vercel.app",
-    image: Calcimg
+    image: calcimg
   }
 ];
 
