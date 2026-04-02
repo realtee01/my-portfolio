@@ -36,7 +36,7 @@ export const projects = [
     description: "A practical tool for University of Lagos students to track and calculate grades.",
     tech: "JavaScript • CSS • HTML",
     link:"https://cgpa-calculator-tobiloba.vercel.app",
-    image: calcimg
+    image: calcImg
   }
 ];
 
