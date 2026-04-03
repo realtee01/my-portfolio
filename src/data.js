@@ -40,7 +40,7 @@ export const projects = [
     image: calcImg
   },
   {
-    id: 5, 
+    id: 4, 
       title: "Nextclean",
     description: "A professional cleaning service platform featuring dynamic service filtering, smooth Framer Motion animations, and a seamless booking flow.",
     tech: "React • Tailwind • Framer Motion",
