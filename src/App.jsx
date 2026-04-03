@@ -187,4 +187,18 @@ function App() {
             </div>
           </div>
         </section>
+        
+              </main>
+
+      <footer className="border-t border-white/5 py-10 text-center">
+        <p className="text-[10px] font-bold tracking-[0.3em] text-gray-600 uppercase">
+          © 2026 Tobiloba Akala — Build. Ship. Repeat.
+        </p>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
+
 
