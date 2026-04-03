@@ -121,7 +121,7 @@ function App() {
 
 
               
-            </div>--
+            </div>
 
             <div className="mb-20">
               <h3 className="text-3xl md:text-5xl font-black tracking-tighter uppercase mb-8 leading-tight">
