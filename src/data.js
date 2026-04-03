@@ -42,7 +42,7 @@ export const projects = [
   {
     id: 4, 
       title: "Nextclean",
-    description: "A professional cleaning service platform featuring dynamic service filtering, smooth Framer Motion animations, and a seamless booking flow.",
+    description: "A Lagos-based cleaning service landing page built to convert. Sharp copy, filterable services, and a mobile-first layout",
     tech: "React • Tailwind • Framer Motion",
     link: "https://nextclean.vercel.app", 
     image: nextcleanImg 
