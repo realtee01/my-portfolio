@@ -42,7 +42,7 @@ export const projects = [
   {
     id: 4, 
       title: "Nextclean",
-    description: "A Lagos-based cleaning service landing page built to convert. Sharp copy, filterable services, and a mobile-first layout",
+    description: "A Lagos-based cleaning service landing page built to convert. Sharp copy, filterable services, and a mobile-first layout.",
     tech: "React • Tailwind • Framer Motion",
     link: "https://nextclean.vercel.app", 
     image: nextcleanImg 
