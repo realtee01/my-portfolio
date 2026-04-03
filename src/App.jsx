@@ -99,6 +99,13 @@ function App() {
               <p>
                 My approach to development is rooted in <span className="text-blue-500 underline decoration-blue-500/30 underline-offset-4 font-bold">Performance-First Engineering</span>.
               </p>
+               <p>
+    I’m not the developer who jumped straight into frameworks. I took the long road — <span className="text-white">a year of vanilla JavaScript</span>, learning how things actually work under the hood. Now I build with <span className="text-white">React and Tailwind</span>, and I understand why things break when they do.
+  </p>
+  <p>
+    I’m currently interning as a frontend developer and building my own projects on the side — <span className="text-blue-500">Cinetide</span>, a <span className="text-blue-500">Job Listings Board</span>, and <span className="text-blue-500">Forzchain</span>. I work mostly on mobile,laptops and ship to Vercel, and I’m always in the middle of learning something new.
+  </p>
+              
             </div>
 
             <div className="mb-20">
