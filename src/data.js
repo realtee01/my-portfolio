@@ -2,6 +2,7 @@ import cinescopeImg from './assets/cinescope-thumb.jpg';
 import jobBoardImg from './assets/job-board-thumb.jpg';
 import calcImg from './assets/calc.jpg';
 import forzchainImg from './assets/forzchain.jpg'; // Ensure this import is here
+import nextcleanImg from './assets/Nextclean.jpg'; 
 
 export const projects = [
   {
@@ -37,6 +38,14 @@ export const projects = [
     tech: "JavaScript • CSS • HTML",
     link:"https://cgpa-calculator-tobiloba.vercel.app",
     image: calcImg
+  },
+  {
+    id: 5, 
+    title: "Next clean",
+    description: "A professional cleaning service platform featuring dynamic service filtering, smooth Framer Motion animations, and a seamless booking flow.",
+    tech: "React • Tailwind • Framer Motion",
+    link: "https://nextclean-tau.vercel.app/", 
+    image: nextcleanImg 
   }
 ];
 
