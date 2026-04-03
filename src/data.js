@@ -44,7 +44,7 @@ export const projects = [
       title: "Nextclean",
     description: "A professional cleaning service platform featuring dynamic service filtering, smooth Framer Motion animations, and a seamless booking flow.",
     tech: "React • Tailwind • Framer Motion",
-    link: "https://nextclean-tau.vercel.app/", 
+    link: "https://nextclean.vercel.app", 
     image: nextcleanImg 
   }
 ];
