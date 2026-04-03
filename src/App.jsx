@@ -105,21 +105,19 @@ function App() {
   <p>
     I’m currently  a frontend developer and building my own projects on the side — <span className="text-blue-500">Cinescope</span>, a <span className="text-blue-500">Job Listings Board</span>, and <span className="text-blue-500">Forzchain</span>. I ship to Vercel and I’m always in the middle of learning something new.
   </p>
-  {/* EDUCATION & CERTS */}
-<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
-  <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
-    <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Certification</span>
-    <h4 className="text-white font-bold text-lg">Frontend Engineering</h4>
-    <p className="text-gray-500 text-sm">Axia Africa • 6 Months Intensive</p>
-  </div>
-  
-  <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
-    <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Degree</span>
-    <h4 className="text-white font-bold text-lg">B.Sc. Computer Science</h4>
-    <p className="text-gray-500 text-sm">University of Lagos • In View</p>
-  </div>
-
-
+       {/* EDUCATION & CERTS */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
+        <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
+          <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Certification</span>
+          <h4 className="text-white font-bold text-lg">Frontend Engineering</h4>
+          <p className="text-gray-500 text-sm">Axia Africa • 6 Months Intensive</p>
+        </div>
+        
+        <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
+          <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Degree</span>
+          <h4 className="text-white font-bold text-lg">B.Sc. Computer Science</h4>
+          <p className="text-gray-500 text-sm">University of Lagos • In View</p>
+        </div>
               
             </div>
 
