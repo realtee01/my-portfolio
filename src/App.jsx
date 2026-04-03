@@ -43,8 +43,7 @@ function App() {
           </h2>
 
           <p className="max-w-xl text-gray-400 text-lg md:text-xl leading-relaxed mb-10">
-            Building high-performance, accessible, and visually stunning web interfaces using React and modern architecture.
-          </p>
+            A frontend developer who spent a year grinding JavaScript before touching React. Totally worth it. I build high-performance, accessible, and visually stunning interfaces with React — clean code, real     </p>
 
           <div className="flex flex-wrap justify-center gap-6 text-[10px] font-bold tracking-[0.3em] text-gray-500 uppercase mb-12">
             <a href={socials.github} target="_blank" rel="noreferrer" className="hover:text-white transition">Github</a>
