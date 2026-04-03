@@ -80,7 +80,7 @@ function App() {
           </div>
         </section>
 
-        {/* ABOUT SECTION */}
+               {/* ABOUT SECTION */}
         <section id="about" className="py-24 border-t border-white/5">
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-8">
@@ -92,35 +92,45 @@ function App() {
               The <span className="text-blue-500">Builder.</span>
             </h2>
 
+            {/* Bio Text */}
             <div className="space-y-8 text-gray-400 text-lg md:text-xl leading-relaxed font-medium mb-20">
               <p>
                 I am a Frontend Engineer and Computer Science student at the <span className="text-white font-bold">University of Lagos</span>, dedicated to bridging the gap between complex technical logic and high-end visual aesthetics.
               </p>
+              
               <p>
                 My approach to development is rooted in <span className="text-blue-500 underline decoration-blue-500/30 underline-offset-4 font-bold">Performance-First Engineering</span>.
               </p>
-               <p>
-    I’m not the developer who jumped straight into frameworks. I took the long road — <span className="text-white">a year of vanilla JavaScript</span>, learning how things actually work under the hood. Now I build with <span className="text-white">React and Tailwind</span>, and I understand why things break when they do.
-  </p>
-  <p>
-    I’m currently  a frontend developer and building my own projects on the side — <span className="text-blue-500">Cinescope</span>, a <span className="text-blue-500">Job Listings Board</span>, and <span className="text-blue-500">Forzchain</span>. I ship to Vercel and I’m always in the middle of learning something new.
-  </p>
-       {/* EDUCATION & CERTS */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
-        <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
-          <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Certification</span>
-          <h4 className="text-white font-bold text-lg">Frontend Engineering</h4>
-          <p className="text-gray-500 text-sm">Axia Africa • 6 Months Intensive</p>
-        </div>
-        
-        <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
-          <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Degree</span>
-          <h4 className="text-white font-bold text-lg">B.Sc. Computer Science</h4>
-          <p className="text-gray-500 text-sm">University of Lagos • In View</p>
-        </div>
-              
+
+              <p>
+                I’m not the developer who jumped straight into frameworks. I took the long road — <span className="text-white font-bold">a year of vanilla JavaScript</span>, learning how things actually work under the hood. Now I build with <span className="text-white">React and Tailwind</span>, and I understand why things break when they do.
+              </p>
+
+              <p>
+                I’m currently a frontend developer and <span className="text-blue-500">open to freelance work</span>. If you have a project that needs clean, responsive, and well-thought-out frontend work — <span className="text-white">I’m your guy.</span>
+              </p>
+
+              <p>
+                I build my own projects on the side — <span className="text-blue-500">Cinescope</span>, a <span className="text-blue-500">Job Listings Board</span>, and <span className="text-blue-500">Forzchain</span>. I work fast, ship to Vercel, and I’m always in the middle of learning.
+              </p>
             </div>
 
+            {/* EDUCATION & CERTS */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
+              <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
+                <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Certification</span>
+                <h4 className="text-white font-bold text-lg">Frontend Engineering</h4>
+                <p className="text-gray-500 text-sm">Axia Africa • 6 Months Intensive</p>
+              </div>
+
+              <div className="p-6 bg-[#121212] border border-white/5 rounded-2xl">
+                <span className="text-blue-500 text-[10px] font-bold tracking-widest uppercase block mb-2">Degree</span>
+                <h4 className="text-white font-bold text-lg">B.Sc. Computer Science</h4>
+                <p className="text-gray-500 text-sm">University of Lagos • In View</p>
+              </div>
+            </div>
+
+            {/* TOOLS SECTION */}
             <div className="mb-20">
               <h3 className="text-3xl md:text-5xl font-black tracking-tighter uppercase mb-8 leading-tight">
                 Tools I Use. <br/>
@@ -141,7 +151,7 @@ function App() {
                       <h4 className="text-white font-bold text-lg">{tool.name}</h4>
                       <p className="text-gray-500 text-xs tracking-wide">{tool.desc}</p>
                     </div>
-                    <div className="opacity-0 group-hover:opacity-100 transition-opacity text-blue-500 text-xs font-bold tracking-widest uppercase">
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity text-blue-500 text-[10px] font-bold tracking-widest uppercase">
                       Mastered
                     </div>
                   </div>
@@ -177,15 +187,4 @@ function App() {
             </div>
           </div>
         </section>
-      </main>
 
-      <footer className="border-t border-white/5 py-10 text-center">
-        <p className="text-[10px] font-bold tracking-[0.3em] text-gray-600 uppercase">
-          © 2026 Tobiloba Akala — Build. Ship. Repeat.
-        </p>
-      </footer>
-    </div>
-  );
-}
-
-export default App;
