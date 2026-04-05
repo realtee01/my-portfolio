@@ -171,7 +171,7 @@ function App() {
               </h2>
               
               <p className="text-gray-500 mb-10 text-lg">
-                Got a project? A brief? Just want to talk code? I'm here.
+                Got a project? A brief? Just want to talk code?  I'm here.
               </p>
 
               <form action="https://formspree.io/f/xaqlbalq" method="POST" className="space-y-4">
