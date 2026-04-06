@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import VideoPlayer from './VideoPlayer';
+import VideoPlayer from './VideoPlayer.jsx';
 
 const NewHero = () => {
   const videoSrc = "https://stream.mux.com/9JXDljEVWYwWu01PUkAemafDugK89o01BR6zqJ3aS9u00A.m3u8";
@@ -70,10 +70,9 @@ const NewHero = () => {
         </motion.div>
       </motion.div>
 
-      {/* Logo Marquee (Static Footer) */}
+      {/* Static Logo Marquee */}
       <div className="absolute bottom-12 w-full px-12">
         <div className="flex justify-between items-center opacity-40 grayscale gap-8 overflow-hidden">
-          {/* Using placeholder text for logos - you can replace with SVGs later */}
           {["Vercel", "GitHub", "Stripe", "Next.js", "Framer"].map(logo => (
             <span key={logo} className="text-xl font-bold tracking-tighter text-white">{logo}</span>
           ))}
