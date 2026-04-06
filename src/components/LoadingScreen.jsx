@@ -22,6 +22,7 @@ const LoadingScreen = ({ onComplete }) => {
       if (newProgress < 100) {
         requestAnimationFrame(updateCounter);
       } else {
+        // Wait 400ms after hitting 100 to trigger the exit
         setTimeout(onComplete, 400);
       }
     };
@@ -42,16 +43,17 @@ const LoadingScreen = ({ onComplete }) => {
       transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
       className="fixed inset-0 z-[9999] bg-[#0a0a0a] flex flex-col justify-between p-8 md:p-12 overflow-hidden"
     >
-      {/* Element 1: Label */}
+      {/* Element 1: Portfolio Label */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-xs md:text-sm text-[#888888] uppercase tracking-[0.3em]"
+        transition={{ duration: 0.6, delay: 0.1 }}
+        className="text-[10px] md:text-sm text-[#888888] uppercase tracking-[0.3em] font-bold"
       >
         Portfolio
       </motion.div>
 
-      {/* Element 2: Rotating Words */}
+      {/* Element 2: Rotating Words (Center) */}
       <div className="absolute inset-0 flex items-center justify-center">
         <AnimatePresence mode="wait">
           <motion.span
@@ -67,24 +69,28 @@ const LoadingScreen = ({ onComplete }) => {
         </AnimatePresence>
       </div>
 
-      {/* Element 3: Counter */}
-      <div className="flex flex-col items-end gap-2">
+      {/* Bottom Container: Counter + Progress Bar */}
+      <div className="flex flex-col items-end gap-6">
+        {/* Element 3: Counter */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
           className="text-6xl md:text-8xl lg:text-9xl font-display text-[#f5f5f5] tabular-nums"
         >
           {Math.round(progress).toString().padStart(3, '0')}
         </motion.div>
 
         {/* Element 4: Progress Bar */}
-        <div className="w-full h-[3px] bg-[#1f1f1f]/50 overflow-hidden">
+        <div className="w-full h-[3px] bg-[#1f1f1f]/50 relative overflow-hidden">
           <motion.div 
-            className="h-full origin-left bg-gradient-to-r from-[#89AACC] to-[#4E85BF]"
+            className="absolute top-0 left-0 h-full origin-left bg-gradient-to-r from-[#89AACC] to-[#4E85BF]"
             style={{ 
-                scaleX: progress / 100,
-                boxShadow: "0 0 8px rgba(137, 170, 204, 0.35)" 
+              width: '100%',
+              scaleX: progress / 100,
+              boxShadow: "0 0 12px rgba(137, 170, 204, 0.4)" 
             }}
+            transition={{ duration: 0.1, ease: "linear" }}
           />
         </div>
       </div>
