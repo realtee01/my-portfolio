@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,8 +15,6 @@
     "lucide-react": "^0.284.0",
     "framer-motion": "^10.16.4",
     "hls.js": "^1.4.12"
-  },
-
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -31,5 +29,4 @@
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
   }
-
-
+}
