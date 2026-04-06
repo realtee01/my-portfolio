@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Card from './components/Card.jsx';
 import LoadingScreen from './components/LoadingScreen.jsx';
 import NewHero from './components/NewHero.jsx';
-import { projects, socials } from './data.jsx';
+import { projects, socials } from './data.js';
 import resumeFile from './assets/Resume.pdf';
 
 function App() {
